@@ -118,7 +118,7 @@
 .pricingFeature {
   align-self: stretch;
   flex-direction: row;
-  align-items: flex-start;
+  align-items: center;
   gap: var(--gap-5xs);
 }
 .column,
@@ -127,7 +127,7 @@
 }
 .features {
   align-self: stretch;
-  padding: 0 var(--padding-base);
+  padding: 0 var(--padding-5xl);
   align-items: center;
   gap: var(--gap-base);
   font-size: var(--font-size-sm);
@@ -155,34 +155,37 @@
   color: var(--color-white);
 }
 .column1,
-.features2,
-.pricingFeature12 {
+.features1,
+.pricingFeature6 {
   display: flex;
   justify-content: flex-start;
+}
+.pricingFeature6 {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: var(--gap-5xs);
+}
+.column1,
+.features1 {
+  flex-direction: column;
+}
+.features1 {
+  align-self: stretch;
+  padding: 0 var(--padding-base);
+  align-items: center;
+  gap: var(--gap-base);
+  font-size: var(--font-size-sm);
+  color: var(--color-darkslategray);
 }
 .column1 {
   background-color: var(--color-white);
   box-shadow: 0 4px 130px rgba(150, 163, 181, 0.3);
   width: 260px;
-  flex-direction: column;
   padding: var(--padding-13xl) 0;
   box-sizing: border-box;
   align-items: flex-start;
   gap: var(--gap-5xl);
-}
-.features2,
-.pricingFeature12 {
-  align-self: stretch;
-  flex-direction: row;
-  align-items: center;
-  gap: var(--gap-5xs);
-}
-.features2 {
-  flex-direction: column;
-  padding: 0 var(--padding-5xl);
-  gap: var(--gap-base);
-  font-size: var(--font-size-sm);
-  color: var(--color-darkslategray);
 }
 .columns,
 .pricingComparison {
@@ -205,4 +208,9 @@
   font-size: var(--font-size-21xl);
   color: var(--color-gray);
   font-family: var(--font-inter);
+}
+@media screen and (max-width: 840px) {
+  .columns {
+    flex-direction: column;
+  }
 }

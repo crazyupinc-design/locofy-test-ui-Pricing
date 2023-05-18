@@ -119,8 +119,8 @@ const PricingComparison: FunctionComponent = () => {
             </div>
           </div>
           <div className={styles.separator} />
-          <div className={styles.features}>
-            <div className={styles.pricingFeature}>
+          <div className={styles.features1}>
+            <div className={styles.pricingFeature6}>
               <div className={styles.icon}>
                 <div className={styles.icon}>
                   <img
@@ -134,7 +134,7 @@ const PricingComparison: FunctionComponent = () => {
                 Etiam sodales ac felis id interdum
               </div>
             </div>
-            <div className={styles.pricingFeature}>
+            <div className={styles.pricingFeature6}>
               <div className={styles.icon}>
                 <div className={styles.icon}>
                   <img className={styles.vectorIcon} alt="" src="/vector.svg" />
@@ -144,7 +144,7 @@ const PricingComparison: FunctionComponent = () => {
                 Etiam sodales ac felis id interdum
               </div>
             </div>
-            <div className={styles.pricingFeature}>
+            <div className={styles.pricingFeature6}>
               <div className={styles.icon}>
                 <div className={styles.icon}>
                   <img className={styles.vectorIcon} alt="" src="/vector.svg" />
@@ -154,7 +154,7 @@ const PricingComparison: FunctionComponent = () => {
                 Etiam sodales ac felis id interdum
               </div>
             </div>
-            <div className={styles.pricingFeature}>
+            <div className={styles.pricingFeature6}>
               <div className={styles.icon}>
                 <div className={styles.icon}>
                   <img className={styles.vectorIcon} alt="" src="/vector.svg" />
@@ -164,7 +164,7 @@ const PricingComparison: FunctionComponent = () => {
                 Etiam sodales ac felis id interdum
               </div>
             </div>
-            <div className={styles.pricingFeature}>
+            <div className={styles.pricingFeature6}>
               <div className={styles.icon}>
                 <div className={styles.icon}>
                   <img
@@ -178,7 +178,7 @@ const PricingComparison: FunctionComponent = () => {
                 Etiam sodales ac felis id interdum
               </div>
             </div>
-            <div className={styles.pricingFeature}>
+            <div className={styles.pricingFeature6}>
               <div className={styles.icon}>
                 <div className={styles.icon}>
                   <img
@@ -218,8 +218,8 @@ const PricingComparison: FunctionComponent = () => {
             </div>
           </div>
           <div className={styles.separator} />
-          <div className={styles.features2}>
-            <div className={styles.pricingFeature12}>
+          <div className={styles.features}>
+            <div className={styles.pricingFeature}>
               <div className={styles.icon}>
                 <div className={styles.icon}>
                   <img className={styles.vectorIcon} alt="" src="/vector.svg" />
@@ -229,7 +229,7 @@ const PricingComparison: FunctionComponent = () => {
                 Lorem ipsum dolor sit amet
               </div>
             </div>
-            <div className={styles.pricingFeature12}>
+            <div className={styles.pricingFeature}>
               <div className={styles.icon}>
                 <div className={styles.icon}>
                   <img className={styles.vectorIcon} alt="" src="/vector.svg" />
@@ -239,7 +239,7 @@ const PricingComparison: FunctionComponent = () => {
                 Lorem ipsum dolor sit amet
               </div>
             </div>
-            <div className={styles.pricingFeature12}>
+            <div className={styles.pricingFeature}>
               <div className={styles.icon}>
                 <div className={styles.icon}>
                   <img className={styles.vectorIcon} alt="" src="/vector.svg" />
@@ -249,7 +249,7 @@ const PricingComparison: FunctionComponent = () => {
                 Lorem ipsum dolor sit amet
               </div>
             </div>
-            <div className={styles.pricingFeature12}>
+            <div className={styles.pricingFeature}>
               <div className={styles.icon}>
                 <div className={styles.icon}>
                   <img className={styles.vectorIcon} alt="" src="/vector.svg" />
@@ -259,7 +259,7 @@ const PricingComparison: FunctionComponent = () => {
                 Lorem ipsum dolor sit amet
               </div>
             </div>
-            <div className={styles.pricingFeature12}>
+            <div className={styles.pricingFeature}>
               <div className={styles.icon}>
                 <div className={styles.icon}>
                   <img className={styles.vectorIcon} alt="" src="/vector.svg" />
@@ -269,7 +269,7 @@ const PricingComparison: FunctionComponent = () => {
                 Lorem ipsum dolor sit amet
               </div>
             </div>
-            <div className={styles.pricingFeature12}>
+            <div className={styles.pricingFeature}>
               <div className={styles.icon}>
                 <div className={styles.icon}>
                   <img
